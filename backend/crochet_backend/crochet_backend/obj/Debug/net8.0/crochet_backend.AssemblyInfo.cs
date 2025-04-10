@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crochet_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+923629fd0788925fba601ac105f65bb9a4feeebb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7706b1fcf4cba231067caed49fe77a53c85fb1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("crochet_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crochet_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

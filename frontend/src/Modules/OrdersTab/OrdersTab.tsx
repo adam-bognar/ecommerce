@@ -10,6 +10,10 @@ import { OrderDto } from "@/Models"
 import { getOrders } from "@/api"
 
   
+type Props={
+  orders: OrderDto[]
+}
+
   // Állapotjelző komponens
   export const StatusBadge = ({ status }: { status: string }) => {
     switch (status) {
@@ -52,28 +56,13 @@ import { getOrders } from "@/api"
     }
   }
 
-  export function OrdersTab(){
-    const [orders, setOrders] = useState<OrderDto[]>([])
+  export function OrdersTab({orders}: Props) {
     const [currentPage, setCurrentPage] = useState(1)
     const [itemsPerPage, setItemsPerPage] = useState(5)
     const [sortField, setSortField] = useState("date")
     const [statusFilter, setStatusFilter] = useState("all")
     const [isFilterOpen, setIsFilterOpen] = useState(false)
 
-    useEffect(() => {
-      const getOrdersFromApi = async () => {
-        const response = await getOrders(
-          {status: statusFilter, sort: sortField, take: itemsPerPage},
-        )
-        if (typeof response !== "string") {
-          setOrders(response)
-        } else {
-          console.error("Hiba a rendelések lekérése során:", response)
-        }
-      }
-      getOrdersFromApi()
-      console.log(orders)
-    },[statusFilter, sortField, itemsPerPage])
 
     // Lapozás számítása
     const indexOfLastItem = currentPage * itemsPerPage

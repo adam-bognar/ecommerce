@@ -31,7 +31,7 @@ export function SignUpPage() {
             await register(firstname,lastname, email, password);
             // Redirect to login after successful signup
 
-            console.log(firstname,lastname, email, password)
+            //console.log(firstname,lastname, email, password)
             navigate("/sign-in");
         } catch (e: any) {
             console.log("catch")

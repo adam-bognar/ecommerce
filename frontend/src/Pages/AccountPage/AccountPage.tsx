@@ -1,12 +1,14 @@
 
+import { getOrders } from "@/api"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { OrderDto } from "@/Models"
 import { NotisTab } from "@/Modules/NotisTab/NotisTab"
 import { OrdersTab } from "@/Modules/OrdersTab/OrdersTab"
 import { PasswordTab } from "@/Modules/PasswordTab/PasswordTab"
 import { ProfileSideBar } from "@/Modules/ProfileSideBar/ProfileSideBar"
 import { ProfileTab } from "@/Modules/ProfileTab/ProfileTab"
 import { SettingsTab } from "@/Modules/SettingsTab/SettingsTab"
-import { useState } from "preact/hooks"
+import { useEffect, useState } from "preact/hooks"
 import { Route, Router, useRoute } from "wouter"
 
 
@@ -50,6 +52,20 @@ export function AccountPage() {
         // })
       }, 1000)
     }
+    const [orders, setOrders] = useState<OrderDto[]>([])
+
+    useEffect(() => {
+          const getOrdersFromApi = async () => {
+            const response = await getOrders()
+            if (typeof response !== "string") {
+              setOrders(response)
+            } else {
+              console.error("Hiba a rendelések lekérése során:", response)
+            }
+          }
+          getOrdersFromApi()
+          console.log(orders)
+        },[])
   
     return (
       <div className="dark min-h-screen bg-gradient-to-br from-neutral-900 to-neutral-800 text-white">
@@ -64,7 +80,7 @@ export function AccountPage() {
   
               <Router base="/account">
                 <Route path="/settings" component={() => <SettingsTab/>} />
-                <Route path="/orders" component={() => <OrdersTab/>} />
+                <Route path="/orders" component={() => <OrdersTab orders={orders}/>} />
 
               </Router>
             </main>

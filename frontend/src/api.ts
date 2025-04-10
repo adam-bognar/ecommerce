@@ -91,49 +91,49 @@ export const getSimilarProducts = async (id: string) => {
 }
 
 export const register = async (firstname: string,lastname, email: string, password: string) => {
-    try {
-        const response = await axios.post(
-            `${apiBaseUrl}/api/Auth/register`,
-            {
-                firstname,
-                lastname,
-                email,
-                password
-            }
-        )
-        console.log(response.data);
-        return response.data;
-    } catch (e) {
-        if (e instanceof Error) {
-            console.error(e.message);
-            return e.message;
-        }
-    }
+    // try {
+    //     const response = await axios.post(
+    //         `${apiBaseUrl}/api/Auth/register`,
+    //         {
+    //             firstname,
+    //             lastname,
+    //             email,
+    //             password
+    //         }
+    //     )
+    //     console.log(response.data);
+    //     return response.data;
+    // } catch (e) {
+    //     if (e instanceof Error) {
+    //         console.error(e.message);
+    //         return e.message;
+    //     }
+    // }
 }
 
 export const login = async (email: string, password: string) => {
-    try {
-        const response = await axios.post(`${apiBaseUrl}/api/Auth/login`, {
-            email,
-            password,
-        });
+    // try {
+    //     const response = await axios.post(`${apiBaseUrl}/api/Auth/login`, {
+    //         email,
+    //         password,
+    //     });
 
-        const { token, userId } = response.data;
+    //     const { token, userId } = response.data;
 
-        // Store the token in localStorage
-        localStorage.setItem("token", token);
-        localStorage.setItem("userId", userId);
+    //     // Store the token in localStorage
+    //     localStorage.setItem("token", token);
+    //     localStorage.setItem("userId", userId);
 
-        return { token, userId };
-    } catch (error: any) {
-        console.error("Login error:", error.response?.data || error.message);
-        throw error;
-    }
+    //     return { token, userId };
+    // } catch (error: any) {
+    //     console.error("Login error:", error.response?.data || error.message);
+    //     throw error;
+    // }
 };
 
 export const logout = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("userId");
+    // localStorage.removeItem("token");
+    // localStorage.removeItem("userId");
 };
 
 export const isLoggedIn = () => {
@@ -154,49 +154,49 @@ export const getMyCart = async (): Promise<CartDto | string> => {
 };
 
 export const updateQuantity = async (productId: number, quantity: number) => {
-    try {
-        const response = await axios.put(
-            `${apiBaseUrl}/api/Cart/update`,
-            { 
-                productId,
-                quantity
-             },
-        );
-        return response.data;
-    } catch (e) {
-        if (e instanceof Error) {
-            console.error(e.message);
-            return e.message;
-        }
-    }
+    // try {
+    //     const response = await axios.put(
+    //         `${apiBaseUrl}/api/Cart/update`,
+    //         { 
+    //             productId,
+    //             quantity
+    //          },
+    //     );
+    //     return response.data;
+    // } catch (e) {
+    //     if (e instanceof Error) {
+    //         console.error(e.message);
+    //         return e.message;
+    //     }
+    // }
 }
 
 export const deleteItem = async (productId: number) => {
-    try{
-        const response = await axios.delete(
-            `${apiBaseUrl}/api/Cart/me/${productId}`);
-        return response.data;
-    }catch(e){
-        if(e instanceof Error){
-            console.error(e.message);
-            return e.message;
-        }
-    }
+    // try{
+    //     const response = await axios.delete(
+    //         `${apiBaseUrl}/api/Cart/me/${productId}`);
+    //     return response.data;
+    // }catch(e){
+    //     if(e instanceof Error){
+    //         console.error(e.message);
+    //         return e.message;
+    //     }
+    // }
 }
 
 export const addToCart = async (productId: number) => {
-    try{
-        const response = await axios.post(
-            `${apiBaseUrl}/api/Cart/add`,
-            { productId }
-        )
-        return response.data;
-    } catch(e){
-        if(e instanceof Error){
-            console.error(e.message);
-            return e.message;
-        }
-    }
+    // try{
+    //     const response = await axios.post(
+    //         `${apiBaseUrl}/api/Cart/add`,
+    //         { productId }
+    //     )
+    //     return response.data;
+    // } catch(e){
+    //     if(e instanceof Error){
+    //         console.error(e.message);
+    //         return e.message;
+    //     }
+    // }
 }
 
 export const getOrders = async (params? :{
@@ -229,13 +229,13 @@ export const getOrders = async (params? :{
 }
 
 export const createOrder = async () => {
-    try {
-        const response = await axios.post(`${apiBaseUrl}/api/Order`);
-        return response.data;
-    } catch (e) {
-        if (e instanceof Error) {
-            console.error(e.message);
-            return e.message;
-        }
-    }
+    // try {
+    //     const response = await axios.post(`${apiBaseUrl}/api/Order`);
+    //     return response.data;
+    // } catch (e) {
+    //     if (e instanceof Error) {
+    //         console.error(e.message);
+    //         return e.message;
+    //     }
+    // }
 }

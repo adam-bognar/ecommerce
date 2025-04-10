@@ -49,7 +49,7 @@ const handleCreateOrder = async () => {
               <CardFooter className="px-6 pb-6 pt-0">
                 <div className="w-full space-y-3">
                   <Button className="w-full bg-amber-300 hover:bg-amber-400 text-black" size="lg" asChild onClick={handleCreateOrder}>
-                    <Link href="/checkout">Tovább a fizetéshez</Link>
+                    <Link href="">Tovább a fizetéshez</Link>
                   </Button>
                   <Button
                     variant="outline"

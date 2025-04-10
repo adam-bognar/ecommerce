@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\webshop\\backend\\crochet_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|solutionrelative:crochet_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A6D6FAA-5B94-4C7D-A037-4DD8D8020E14}|crochet_backend\\crochet_backend.csproj|d:\\webshop\\backend\\crochet_backend\\crochet_backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,37 +42,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 292,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Models\\AppSettings.cs",
-              "RelativeDocumentMoniker": "crochet_backend\\Models\\AppSettings.cs",
-              "ToolTip": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Models\\AppSettings.cs",
-              "RelativeToolTip": "crochet_backend\\Models\\AppSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:22:49.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\appsettings.json",
               "RelativeDocumentMoniker": "crochet_backend\\appsettings.json",
               "ToolTip": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\appsettings.json",
               "RelativeToolTip": "crochet_backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-10T15:21:20.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Models\\Product.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Models\\Product.cs",
@@ -84,12 +67,11 @@
               "RelativeToolTip": "crochet_backend\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:54:48.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:54:48.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Controllers\\ProductController.cs",
@@ -97,12 +79,11 @@
               "RelativeToolTip": "crochet_backend\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACgBAAAAAAAAAAAuwDYBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:48:42.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:48:42.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Controllers\\OrderController.cs",
@@ -110,12 +91,11 @@
               "RelativeToolTip": "crochet_backend\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:48:40.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:48:40.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Controllers\\ImagesController.cs",
@@ -123,12 +103,11 @@
               "RelativeToolTip": "crochet_backend\\Controllers\\ImagesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:48:28.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:48:28.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Controllers\\CartController.cs",
@@ -136,12 +115,11 @@
               "RelativeToolTip": "crochet_backend\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:48:25.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:48:25.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Controllers\\AuthController.cs",
@@ -149,21 +127,19 @@
               "RelativeToolTip": "crochet_backend\\Controllers\\AuthController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowEMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:48:20.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:48:20.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Program.cs",
               "RelativeDocumentMoniker": "crochet_backend\\Program.cs",
               "ToolTip": "D:\\webshop\\backend\\crochet_backend\\crochet_backend\\Program.cs",
               "RelativeToolTip": "crochet_backend\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:14:24.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T15:14:24.357Z"
             }
           ]
         }
