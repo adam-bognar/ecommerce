@@ -1,3 +1,10 @@
+// Auto-login as test user
+localStorage.setItem(
+	"token",
+	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijc5NWFmNWJkLTRhMTAtNDQyNi1hNWM2LWUxNGE3ZWZlMDkwYSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImpvaG5AZ21haWwuY29tIiwiZXhwIjoxNzc1ODQ1MzAyfQ.t0QUuPrvQcJDhy09UPSmxeVNjkAK3VYjQTX2eEbiG-M"
+  );
+  
+
 const params = new URLSearchParams(window.location.search);
 const redirectPath = params.get("redirect");
 
