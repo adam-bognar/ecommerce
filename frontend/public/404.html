@@ -1,0 +1,8 @@
+<script>
+    const path = location.pathname.replace("/ecommerce", "");
+    const search = location.search;
+    const hash = location.hash;
+    const redirectTo = `/ecommerce/index.html?redirect=${encodeURIComponent(path + search + hash)}`;
+    location.replace(redirectTo);
+  </script>
+  

@@ -1,3 +1,12 @@
+const params = new URLSearchParams(window.location.search);
+const redirectPath = params.get("redirect");
+
+if (
+  redirectPath &&
+  window.location.pathname === "/ecommerce/index.html"
+) {
+  window.history.replaceState(null, "", `/ecommerce${redirectPath}`);
+}
 
 import { Route, Router } from "wouter";
 
@@ -6,7 +15,6 @@ import NavBar from './Modules/NavBar/NavBar';
 import DetailedProductPage from './Pages/DetailedProductPage/DetailedProductPage';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import './style.css';
-
 
 import { createContext, render } from "preact";
 import { AccountPage } from "./Pages/AccountPage/AccountPage";
@@ -17,28 +25,22 @@ import { SignUpPage } from "./Pages/SignUpPage/SignUpPage";
 
 const alma = createContext("");
 
-
-
-
 export function App() {
-
 	return (
 		<div className="bg-gradient-to-br from-neutral-900 to-neutral-800">
-			<NavBar/>
+			<NavBar />
 			<Router>
 				<Route path="/ecommerce" component={() => <LandingPage />} />
 				<Route path="/ecommerce/products/:productID" component={() => <DetailedProductPage />} />
-				<Route path={"/ecommerce/products/"} component={() => <ProductsPage/>} />
-				<Route path={"/ecommerce/cart"} component={() => <CartPage/>} />
-				<Route path={"/ecommerce/sign-in"} component={() => <SignInPage/>} />
-				<Route path={"/ecommerce/sign-up"} component={() => <SignUpPage/>} />
-				<Route path={"/ecommerce/account/:section"} component={() => <AccountPage/>} />
-
+				<Route path="/ecommerce/products/" component={() => <ProductsPage />} />
+				<Route path="/ecommerce/cart" component={() => <CartPage />} />
+				<Route path="/ecommerce/sign-in" component={() => <SignInPage />} />
+				<Route path="/ecommerce/sign-up" component={() => <SignUpPage />} />
+				<Route path="/ecommerce/account/:section" component={() => <AccountPage />} />
 			</Router>
 			<Footer />
 		</div>
 	);
 }
-
 
 render(<App />, document.getElementById('app'));
