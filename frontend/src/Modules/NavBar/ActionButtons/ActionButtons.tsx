@@ -50,7 +50,7 @@ const ActionButtons = ({setSearchOpen}: Props) => {
         <Search className="h-4 w-4 text-white" />
       </button>
     
-      <Link href="/cart" className="border border-gray-300 rounded-lg p-3 hover:bg-neutral-700 active:bg-gray-150 cursor-pointer relative">
+      <Link href="/ecommerce/cart" className="border border-gray-300 rounded-lg p-3 hover:bg-neutral-700 active:bg-gray-150 cursor-pointer relative">
         <ShoppingCart className="h-4 w-4 text-white" />
         {itemsInCart > 0 && (
           <span className="absolute -top-2 -right-2 bg-amber-300 text-black text-xs font-medium rounded-full h-5 w-5 flex items-center justify-center">
@@ -60,7 +60,7 @@ const ActionButtons = ({setSearchOpen}: Props) => {
       </Link>
       
       <div className="hidden md:flex items-center">
-        <Link href="/account/settings" className="border border-gray-300 rounded-lg p-3 hover:bg-neutral-700 active:bg-gray-150 cursor-pointer">
+        <Link href="/ecommerce/account/settings" className="border border-gray-300 rounded-lg p-3 hover:bg-neutral-700 active:bg-gray-150 cursor-pointer">
           <User className="h-4 w-4 text-white" />
         </Link>
       </div>

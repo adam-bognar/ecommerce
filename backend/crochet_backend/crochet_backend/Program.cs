@@ -14,14 +14,17 @@ JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocalhost",
-        policy =>
-        {
-            policy.WithOrigins("http://localhost:5173") // Allow frontend origin
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins(
+            "http://localhost:5173",
+            "https://adam-bognar.github.io"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
 });
+
 
 var jwtKey = builder.Configuration["JWT:Key"];
 var key = Encoding.ASCII.GetBytes(jwtKey);
@@ -127,7 +130,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowLocalhost");
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 
 app.UseAuthentication(); // ✅ required

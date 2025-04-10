@@ -17,7 +17,7 @@ const LogoAndMenu = ({isOpen,setIsOpen}: Props) => {
                 </button>
               </div>
               <div>
-                <a href="/" className="text-2xl font-bold text-white">
+                <a href="/ecommerce/" className="text-2xl font-bold text-white">
                   ShopNow
                 </a>
               </div>

@@ -29,13 +29,13 @@ export function ProfileSideBar() {
 
         <nav className="space-y-1">
           <Button variant="ghost" className={getButtonClass("settings")} asChild>
-            <Link href="/account/settings">
+            <Link href="/ecommerce/account/settings">
               <UserIcon className="mr-2 h-4 w-4" />
               Profil
             </Link>
           </Button>
           <Button variant="ghost" className={getButtonClass("orders")} asChild>
-            <Link href="/account/orders">
+            <Link href="/ecommerce/account/orders">
               <PackageIcon className="mr-2 h-4 w-4" />
               Rendelések
             </Link>

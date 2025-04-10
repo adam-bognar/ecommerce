@@ -78,7 +78,7 @@ export function AccountPage() {
             <main className="flex-1">
               <h1 className="text-3xl font-bold mb-8">Fiók Beállítások</h1>
   
-              <Router base="/account">
+              <Router base="/ecommerce/account">
                 <Route path="/settings" component={() => <SettingsTab/>} />
                 <Route path="/orders" component={() => <OrdersTab orders={orders}/>} />
 

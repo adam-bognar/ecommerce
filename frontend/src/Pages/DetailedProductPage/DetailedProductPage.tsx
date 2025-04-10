@@ -11,7 +11,7 @@ type Props = {
 
 export default function DetailedProductPage({  }: Props) {
   const [match, params] = useRoute<{ productID: string; section?: string }>(
-    "/products/:productID"
+    "/ecommerce/products/:productID"
   );
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(false);

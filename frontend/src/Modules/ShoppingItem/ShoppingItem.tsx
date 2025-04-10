@@ -60,7 +60,7 @@ const ShoppingItem = ({ product }: Props) => {
 
     return (
         <Link
-            href={`/products/${product.id}`}
+            href={`/ecommerce/products/${product.id}`}
             className="border border-neutral-700 lg:max-w-[300px] bg-neutral-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02] hover:cursor-pointer group flex flex-col w-full h-full"
             onClick={() => {
                 

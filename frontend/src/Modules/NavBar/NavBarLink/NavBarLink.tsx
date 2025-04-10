@@ -5,7 +5,7 @@ type Props = {
 
 const NavBarLink = ({name}: Props) => {
     return (
-        <a href="/products" className=" text-xl text-white font-bold hover:text-gray-400">
+        <a href="/ecommerce/products/" className=" text-xl text-white font-bold hover:text-gray-400">
             {name}
         </a>
     )
