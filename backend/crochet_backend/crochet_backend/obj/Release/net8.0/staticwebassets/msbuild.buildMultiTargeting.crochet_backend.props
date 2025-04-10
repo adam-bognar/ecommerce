@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\crochet_backend.props" />
+</Project>
