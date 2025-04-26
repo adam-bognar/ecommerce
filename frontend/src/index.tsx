@@ -1,10 +1,7 @@
 // Auto-login as test user
 localStorage.clear();
 
-localStorage.setItem(
-	"token",
-	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImVkYWZkYmJmLTM2YWEtNDI1MC05MTQ3LTVlYTc0ZTlmZTA4YSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6IkpvaG5AZXhhbXBsZS5jb20iLCJleHAiOjE3NzcyMTYwNTl9.ztX8fcqP92xlW1ZjBq0Dt3MNRxYTdzpdpmYU8dqQpCU"  
-);
+localStorage.removeItem("token");
   
 
 const params = new URLSearchParams(window.location.search);
