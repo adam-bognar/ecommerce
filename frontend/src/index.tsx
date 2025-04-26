@@ -1,7 +1,5 @@
 // Auto-login as test user
-localStorage.clear();
 
-localStorage.removeItem("token");
   
 
 const params = new URLSearchParams(window.location.search);
@@ -28,10 +26,26 @@ import { CartPage } from "./Pages/CartPage/CartPage";
 import ProductsPage from './Pages/ProductsPage/ProductsPage';
 import { SignInPage } from "./Pages/SignInPage/SignInPage";
 import { SignUpPage } from "./Pages/SignUpPage/SignUpPage";
+import { useEffect } from "preact/hooks";
 
 const alma = createContext("");
 
 export function App() {
+
+	useEffect(() => {
+		localStorage.clear();
+		localStorage.removeItem("token");
+
+		const params = new URLSearchParams(window.location.search);
+		const redirectPath = params.get("redirect");
+
+		if (
+			redirectPath &&
+			window.location.pathname === "/ecommerce/index.html"
+		) {
+			window.history.replaceState(null, "", `/ecommerce${redirectPath}`);
+		}
+	}, []);
 	return (
 		<div className="bg-gradient-to-br from-neutral-900 to-neutral-800">
 			<NavBar />
